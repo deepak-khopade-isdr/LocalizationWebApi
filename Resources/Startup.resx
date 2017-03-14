@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="GET_COLOR_404">
+        <value>Color presets not found.</value>
+    </data>
+    <data name="COLOR_PATCH_400_NULL">
+        <value>Color settings cannot be null.</value>
+    </data>
+    <data name="COLOR_PATCH_400_NOT_UPDATED">
+        <value>No data was updated.</value>
+    </data>
+</root>
