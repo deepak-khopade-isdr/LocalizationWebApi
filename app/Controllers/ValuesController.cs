@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
-namespace LocalizationWebApi.Controllers
+namespace app.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
