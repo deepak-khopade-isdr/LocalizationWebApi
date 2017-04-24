@@ -26,9 +26,9 @@ namespace LocalizationWebApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get(string id)
         {
-            return _localizer["GET_COLOR_404"].Value;
+            return _localizer[id].Value;
         }
 
         // POST api/values
